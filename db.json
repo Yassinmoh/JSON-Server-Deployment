@@ -45,5 +45,11 @@
                 "dimensions": "10x10x10cm"
             }
         }
+    ],
+    "users":[
+        {
+            "id":1,
+            "name":"yassin"
+        }
     ]
 }
