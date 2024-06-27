@@ -20,10 +20,10 @@
     "Products": [
         {
             "id": 1,
-            "name": "Product 1",
-            "description": "This is the description for product 1.",
+            "name": "Apple iPhone 11 Pro Max",
+            "long_description": "This is the description for product 1.",
             "price": 99.99,
-            "imageUrl": "https://via.placeholder.com/150",
+            "imageUrl": "prod-1.jpg",
             "category": "Category 1",
             "stock": 10,
             "rating": 4.5,
@@ -43,13 +43,140 @@
                 "color": "red",
                 "weight": "1kg",
                 "dimensions": "10x10x10cm"
-            }
-        }
-    ],
-    "users":[
+            },
+            "description": [
+                "Universal fit that’s comfortable all day",
+                "Automatically on, connect",
+                "Easy setup for all your Apple devices"
+            ]
+        },
         {
-            "id":1,
-            "name":"yassin"
+            "id": 2,
+            "name": "Apple Watch Series 6",
+            "long_description": "This is the description for product 1.",
+            "price": 99.99,
+            "imageUrl": "prod-1.jpg",
+            "category": "Category 1",
+            "stock": 10,
+            "rating": 3,
+            "reviews": [
+                {
+                    "userId": 1,
+                    "comment": "Great product!",
+                    "rating": 5
+                },
+                {
+                    "userId": 2,
+                    "comment": "Good value for money.",
+                    "rating": 4
+                }
+            ],
+            "specifications": {
+                "color": "red",
+                "weight": "1kg",
+                "dimensions": "10x10x10cm"
+            },
+            "description": [
+                "Universal fit that’s comfortable all day",
+                "Automatically on, connect",
+                "Easy setup for all your Apple devices"
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Apple iPhone 13 Pro Max",
+            "long_description": "This is the description for product 1.",
+            "price": 99.99,
+            "imageUrl": "prod-3.jpg",
+            "category": "Category 1",
+            "stock": 10,
+            "rating": 3,
+            "reviews": [
+                {
+                    "userId": 1,
+                    "comment": "Great product!",
+                    "rating": 5
+                },
+                {
+                    "userId": 2,
+                    "comment": "Good value for money.",
+                    "rating": 4
+                }
+            ],
+            "specifications": {
+                "color": "red",
+                "weight": "1kg",
+                "dimensions": "10x10x10cm"
+            },
+            "description": [
+                "Universal fit that’s comfortable all day",
+                "Automatically on, connect",
+                "Easy setup for all your Apple devices"
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Apple iPhone 12 Pro Max",
+            "long_description": "This is the description for product 1.",
+            "price": 99.99,
+            "imageUrl": "prod-4.jpg",
+            "category": "Category 1",
+            "stock": 10,
+            "rating": 3,
+            "reviews": [
+                {
+                    "userId": 1,
+                    "comment": "Great product!",
+                    "rating": 5
+                },
+                {
+                    "userId": 2,
+                    "comment": "Good value for money.",
+                    "rating": 4
+                }
+            ],
+            "specifications": {
+                "color": "red",
+                "weight": "1kg",
+                "dimensions": "10x10x10cm"
+            },
+            "description": [
+                "Universal fit that’s comfortable all day",
+                "Automatically on, connect",
+                "Easy setup for all your Apple devices"
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Apple iPhone 12 Pro Max",
+            "long_description": "This is the description for product 1.",
+            "price": 99.99,
+            "imageUrl": "prod-5.jpg",
+            "category": "Category 1",
+            "stock": 10,
+            "rating": 3,
+            "reviews": [
+                {
+                    "userId": 1,
+                    "comment": "Great product!",
+                    "rating": 5
+                },
+                {
+                    "userId": 2,
+                    "comment": "Good value for money.",
+                    "rating": 4
+                }
+            ],
+            "specifications": {
+                "color": "red",
+                "weight": "1kg",
+                "dimensions": "10x10x10cm"
+            },
+            "description": [
+                "Universal fit that’s comfortable all day",
+                "Automatically on, connect",
+                "Easy setup for all your Apple devices"
+            ]
         }
     ]
 }
