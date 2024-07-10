@@ -32,7 +32,7 @@
             "category": ["Phone","Sport"],
             "brand":"Apple",
             "stock": 10,
-            "rating": 4.5,
+            "rating": 2,
             "reviews": [
                 {
                     "userId": 1,
