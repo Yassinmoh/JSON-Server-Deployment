@@ -17,14 +17,20 @@
             "imgUrl": "iphone.jpg"
         }
     ],
+
     "Products": [
         {
             "id": 1,
             "name": "Apple iPhone 11 Pro Max",
-            "long_description": "This is the description for product 1.",
+            "long_description": "This is the description for product 1 This is the description for product 1 This is the description for product 1.",
+            "short_description": "This is the description for product 1.",
             "price": 99.99,
+            "sku":"AP45",
+            "hasSale":true,
+            "sale":10,
             "imageUrl": "prod-1.jpg",
-            "category": "Category 1",
+            "category": ["Phone","Sport"],
+            "brand":"Apple",
             "stock": 10,
             "rating": 2,
             "reviews": [
@@ -40,9 +46,11 @@
                 }
             ],
             "specifications": {
-                "color": "red",
+                "color": ["red","gray","green"],
                 "weight": "1kg",
-                "dimensions": "10x10x10cm"
+                "dimensions": "10x10x10cm",
+                "Material":"Plastic, Wood",
+                "Weight":"5.3 kg"
             },
             "description": [
                 "Universal fit that’s comfortable all day",
@@ -52,13 +60,18 @@
         },
         {
             "id": 2,
-            "name": "Apple Watch Series 6",
-            "long_description": "This is the description for product 1.",
-            "price": 99.99,
-            "imageUrl": "prod-1.jpg",
-            "category": "Category 1",
-            "stock": 10,
-            "rating": 3,
+            "name": "Apple iPhone 15",
+            "long_description": "This is the description for product 1 This is the description for product 1 This is the description for product 1.",
+            "short_description": "This is the description for product 1.",
+            "price": 154.99,
+            "sku":"AP2",
+            "hasSale":true,
+            "sale":8,
+            "imageUrl": "prod-2.jpg",
+            "category": ["Phone","Sport"],
+            "brand":"Apple",
+            "stock": 54,
+            "rating": 4,
             "reviews": [
                 {
                     "userId": 1,
@@ -72,9 +85,11 @@
                 }
             ],
             "specifications": {
-                "color": "red",
+                "color": ["black","gray","green"],
                 "weight": "1kg",
-                "dimensions": "10x10x10cm"
+                "dimensions": "10x10x10cm",
+                "Material":"Plastic, Wood",
+                "Weight":"5.3 kg"
             },
             "description": [
                 "Universal fit that’s comfortable all day",
@@ -84,12 +99,17 @@
         },
         {
             "id": 3,
-            "name": "Apple iPhone 13 Pro Max",
-            "long_description": "This is the description for product 1.",
-            "price": 99.99,
+            "name": "Samsung s24 ultra",
+            "long_description": "This is the description for product 1 This is the description for product 1 This is the description for product 1.",
+            "short_description": "This is the description for product 1.",
+            "price": 197.99,
+            "sku":"AP03",
+            "hasSale":true,
+            "sale":30,
             "imageUrl": "prod-3.jpg",
-            "category": "Category 1",
-            "stock": 10,
+            "category": ["Phone","Sport"],
+            "brand":"Samsung",
+            "stock": 98,
             "rating": 3,
             "reviews": [
                 {
@@ -104,9 +124,11 @@
                 }
             ],
             "specifications": {
-                "color": "red",
+                "color": ["red","yellow"],
                 "weight": "1kg",
-                "dimensions": "10x10x10cm"
+                "dimensions": "10x10x10cm",
+                "Material":"Plastic, Wood",
+                "Weight":"5.3 kg"
             },
             "description": [
                 "Universal fit that’s comfortable all day",
@@ -116,43 +138,16 @@
         },
         {
             "id": 4,
-            "name": "Apple iPhone 12 Pro Max",
-            "long_description": "This is the description for product 1.",
+            "name": "Samsung Galaxy M33",
+            "long_description": "This is the description for product 1 This is the description for product 1 This is the description for product 1.",
+            "short_description": "This is the description for product 1.",
             "price": 99.99,
+            "sku":"AP04",
+            "hasSale":true,
+            "sale":12,
             "imageUrl": "prod-4.jpg",
-            "category": "Category 1",
-            "stock": 10,
-            "rating": 3,
-            "reviews": [
-                {
-                    "userId": 1,
-                    "comment": "Great product!",
-                    "rating": 5
-                },
-                {
-                    "userId": 2,
-                    "comment": "Good value for money.",
-                    "rating": 4
-                }
-            ],
-            "specifications": {
-                "color": "red",
-                "weight": "1kg",
-                "dimensions": "10x10x10cm"
-            },
-            "description": [
-                "Universal fit that’s comfortable all day",
-                "Automatically on, connect",
-                "Easy setup for all your Apple devices"
-            ]
-        },
-        {
-            "id": 5,
-            "name": "Apple iPhone 12 Pro Max",
-            "long_description": "This is the description for product 1.",
-            "price": 99.99,
-            "imageUrl": "prod-5.jpg",
-            "category": "Category 1",
+            "category": ["Phone","Sport"],
+            "brand":"Apple",
             "stock": 10,
             "rating": 5,
             "reviews": [
@@ -168,9 +163,1025 @@
                 }
             ],
             "specifications": {
-                "color": "red",
+                "color": ["red","gray","green"],
                 "weight": "1kg",
-                "dimensions": "10x10x10cm"
+                "dimensions": "10x10x10cm",
+                "Material":"Plastic, Wood",
+                "Weight":"5.3 kg"
+            },
+            "description": [
+                "Universal fit that’s comfortable all day",
+                "Automatically on, connect",
+                "Easy setup for all your Apple devices"
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Samsung Galaxy A35 5G",
+            "long_description": "This is the description for product 1 This is the description for product 1 This is the description for product 1.",
+            "short_description": "This is the description for product 1.",
+            "price": 99.99,
+            "sku":"AP05",
+            "hasSale":false,
+            "sale":null,
+            "imageUrl": "prod-5.jpg",
+            "category": ["Phone","Sport"],
+            "brand":"Samsung",
+            "stock": 10,
+            "rating": 4,
+            "reviews": [
+                {
+                    "userId": 1,
+                    "comment": "Great product!",
+                    "rating": 5
+                },
+                {
+                    "userId": 2,
+                    "comment": "Good value for money.",
+                    "rating": 4
+                }
+            ],
+            "specifications": {
+                "color": ["black","red","gray","green"],
+                "weight": "1kg",
+                "dimensions": "10x10x10cm",
+                "Material":"Plastic, Wood",
+                "Weight":"5.3 kg"
+            },
+            "description": [
+                "Universal fit that’s comfortable all day",
+                "Automatically on, connect",
+                "Easy setup for all your Apple devices"
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Apple iPhone 11 Pro Max",
+            "long_description": "This is the description for product 1 This is the description for product 1 This is the description for product 1.",
+            "short_description": "This is the description for product 1.",
+            "price": 99.99,
+            "sku":"AP06",
+            "hasSale":true,
+            "sale":13,
+            "imageUrl": "prod-6.jpg",
+            "category": ["Phone","Sport"],
+            "brand":"Samsung",
+            "stock": 14,
+            "rating": 2,
+            "reviews": [
+                {
+                    "userId": 1,
+                    "comment": "Great product!",
+                    "rating": 5
+                },
+                {
+                    "userId": 2,
+                    "comment": "Good value for money.",
+                    "rating": 4
+                }
+            ],
+            "specifications": {
+                "color": ["red","gray","green"],
+                "weight": "1kg",
+                "dimensions": "10x10x10cm",
+                "Material":"Plastic, Wood",
+                "Weight":"5.3 kg"
+            },
+            "description": [
+                "Universal fit that’s comfortable all day",
+                "Automatically on, connect",
+                "Easy setup for all your Apple devices"
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Redmi Note 13",
+            "long_description": "This is the description for product 1 This is the description for product 1 This is the description for product 1.",
+            "short_description": "This is the description for product 1.",
+            "price": 544.99,
+            "sku":"AP07",
+            "hasSale":false,
+            "sale":null,
+            "imageUrl": "prod-7.jpg",
+            "category": ["Phone","Sport"],
+            "brand":"Redmi",
+            "stock": 10,
+            "rating": 5,
+            "reviews": [
+                {
+                    "userId": 1,
+                    "comment": "Great product!",
+                    "rating": 5
+                },
+                {
+                    "userId": 2,
+                    "comment": "Good value for money.",
+                    "rating": 4
+                }
+            ],
+            "specifications": {
+                "color": ["blue"],
+                "weight": "1kg",
+                "dimensions": "10x10x10cm",
+                "Material":"Plastic, Wood",
+                "Weight":"5.3 kg"
+            },
+            "description": [
+                "Universal fit that’s comfortable all day",
+                "Automatically on, connect",
+                "Easy setup for all your Apple devices"
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Xiaomi Redmi 13C Dual SIM",
+            "long_description": "This is the description for product 1 This is the description for product 1 This is the description for product 1.",
+            "short_description": "This is the description for product 1.",
+            "price": 589.99,
+            "sku":"AP08",
+            "hasSale":true,
+            "sale":16,
+            "imageUrl": "prod-8.jpg",
+            "category": ["Phone","Sport"],
+            "brand":"Xiaomi",
+            "stock": 10,
+            "rating": 3,
+            "reviews": [
+                {
+                    "userId": 1,
+                    "comment": "Great product!",
+                    "rating": 5
+                },
+                {
+                    "userId": 2,
+                    "comment": "Good value for money.",
+                    "rating": 4
+                }
+            ],
+            "specifications": {
+                "color": ["red","orange","green"],
+                "weight": "1kg",
+                "dimensions": "10x10x10cm",
+                "Material":"Plastic, Wood",
+                "Weight":"5.3 kg"
+            },
+            "description": [
+                "Universal fit that’s comfortable all day",
+                "Automatically on, connect",
+                "Easy setup for all your Apple devices"
+            ]
+        },
+        {
+            "id": 9,
+            "name": "10 Packs of Artificial Olive Stems",
+            "long_description": "This is the description for product 1 This is the description for product 1 This is the description for product 1.",
+            "short_description": "This is the description for product 1.",
+            "price": 99.99,
+            "sku":"AP09",
+            "hasSale":true,
+            "sale":10,
+            "imageUrl": "prod-9.jpg",
+            "category": ["Home","Decore"],
+            "brand":"Olive",
+            "stock": 120,
+            "rating": 4,
+            "reviews": [
+                {
+                    "userId": 1,
+                    "comment": "Great product!",
+                    "rating": 5
+                },
+                {
+                    "userId": 2,
+                    "comment": "Good value for money.",
+                    "rating": 4
+                }
+            ],
+            "specifications": {
+                "color": ["red","gray","green"],
+                "weight": "1kg",
+                "dimensions": "10x10x10cm",
+                "Material":"Plastic, Wood",
+                "Weight":"5.3 kg"
+            },
+            "description": [
+                "Universal fit that’s comfortable all day",
+                "Automatically on, connect",
+                "Easy setup for all your Apple devices"
+            ]
+        },
+        {
+            "id": 10,
+            "name": "Flameless Candles, LED",
+            "long_description": "This is the description for product 1 This is the description for product 1 This is the description for product 1.",
+            "short_description": "This is the description for product 1.",
+            "price": 184,
+            "sku":"AP10",
+            "hasSale":true,
+            "sale":11,
+            "imageUrl": "prod-10.jpg",
+            "category": ["Home","Sport","Lighting"],
+            "brand":"LED",
+            "stock": 10,
+            "rating": 2,
+            "reviews": [
+                {
+                    "userId": 1,
+                    "comment": "Great product!",
+                    "rating": 5
+                },
+                {
+                    "userId": 2,
+                    "comment": "Good value for money.",
+                    "rating": 4
+                }
+            ],
+            "specifications": {
+                "color": ["red","Purple"],
+                "weight": "1kg",
+                "dimensions": "10x10x10cm",
+                "Material":"Plastic, Wood",
+                "Weight":"5.3 kg"
+            },
+            "description": [
+                "Universal fit that’s comfortable all day",
+                "Automatically on, connect",
+                "Easy setup for all your Apple devices"
+            ]
+        },
+        {
+            "id": 11,
+            "name": "Cherry Blossom Tree Light,",
+            "long_description": "This is the description for product 1 This is the description for product 1 This is the description for product 1.",
+            "short_description": "This is the description for product 1.",
+            "price": 40,
+            "sku":"AP11",
+            "hasSale":true,
+            "sale":10,
+            "imageUrl": "prod-11.jpg",
+            "category": ["Deacore","Lighting"],
+            "brand":"Blossom",
+            "stock": 180,
+            "rating": 3,
+            "reviews": [
+                {
+                    "userId": 1,
+                    "comment": "Great product!",
+                    "rating": 5
+                },
+                {
+                    "userId": 2,
+                    "comment": "Good value for money.",
+                    "rating": 4
+                }
+            ],
+            "specifications": {
+                "color": ["Brown"],
+                "weight": "1kg",
+                "dimensions": "10x10x10cm",
+                "Material":"Plastic, Wood",
+                "Weight":"5.3 kg"
+            },
+            "description": [
+                "Universal fit that’s comfortable all day",
+                "Automatically on, connect",
+                "Easy setup for all your Apple devices"
+            ]
+        },
+        {
+            "id": 12,
+            "name": "Sujeet Night Light, Night Lights Plug",
+            "long_description": "This is the description for product 1 This is the description for product 1 This is the description for product 1.",
+            "short_description": "This is the description for product 1.",
+            "price": 99.99,
+            "sku":"AP12",
+            "hasSale":false,
+            "sale":10,
+            "imageUrl": "prod-12.jpg",
+            "category": ["Lighting","Sport"],
+            "brand":"Sujeet",
+            "stock": 10,
+            "rating": 5,
+            "reviews": [
+                {
+                    "userId": 1,
+                    "comment": "Great product!",
+                    "rating": 5
+                },
+                {
+                    "userId": 2,
+                    "comment": "Good value for money.",
+                    "rating": 4
+                }
+            ],
+            "specifications": {
+                "color": ["DarkRed","gray"],
+                "weight": "1kg",
+                "dimensions": "10x10x10cm",
+                "Material":"Plastic, Wood",
+                "Weight":"5.3 kg"
+            },
+            "description": [
+                "Universal fit that’s comfortable all day",
+                "Automatically on, connect",
+                "Easy setup for all your Apple devices"
+            ]
+        },
+        {
+            "id": 13,
+            "name": "WOPITUES Wood Floating Shelves Set of 6 ",
+            "long_description": "This is the description for product 1 This is the description for product 1 This is the description for product 1.",
+            "short_description": "This is the description for product 1.",
+            "price": 546,
+            "sku":"AP13",
+            "hasSale":true,
+            "sale":17,
+            "imageUrl": "prod-13.jpg",
+            "category": ["Home","Wooden"],
+            "brand":"WOPITUES",
+            "stock": 10,
+            "rating": 1,
+            "reviews": [
+                {
+                    "userId": 1,
+                    "comment": "Great product!",
+                    "rating": 5
+                },
+                {
+                    "userId": 2,
+                    "comment": "Good value for money.",
+                    "rating": 4
+                }
+            ],
+            "specifications": {
+                "color": ["Gold","Coral","green"],
+                "weight": "1kg",
+                "dimensions": "10x10x10cm",
+                "Material":"Plastic, Wood",
+                "Weight":"5.3 kg"
+            },
+            "description": [
+                "Universal fit that’s comfortable all day",
+                "Automatically on, connect",
+                "Easy setup for all your Apple devices"
+            ]
+        },
+        {
+            "id": 14,
+            "name": "DreamSky Wooden Digital Alarm",
+            "long_description": "This is the description for product 1 This is the description for product 1 This is the description for product 1.",
+            "short_description": "This is the description for product 1.",
+            "price": 380,
+            "sku":"AP14",
+            "hasSale":true,
+            "sale":10,
+            "imageUrl": "prod-14.jpg",
+            "category": ["Wooden"],
+            "brand":"DreamSky",
+            "stock": 10,
+            "rating": 4.5,
+            "reviews": [
+                {
+                    "userId": 1,
+                    "comment": "Great product!",
+                    "rating": 5
+                },
+                {
+                    "userId": 2,
+                    "comment": "Good value for money.",
+                    "rating": 4
+                }
+            ],
+            "specifications": {
+                "color": ["Khaki"],
+                "weight": "1kg",
+                "dimensions": "10x10x10cm",
+                "Material":"Plastic, Wood",
+                "Weight":"5.3 kg"
+            },
+            "description": [
+                "Universal fit that’s comfortable all day",
+                "Automatically on, connect",
+                "Easy setup for all your Apple devices"
+            ]
+        },
+        {
+            "id": 15,
+            "name": "Smart watch for Men Women",
+            "long_description": "This is the description for product 1 This is the description for product 1 This is the description for product 1.",
+            "short_description": "This is the description for product 1.",
+            "price": 199.99,
+            "sku":"AP15",
+            "hasSale":true,
+            "sale":10,
+            "imageUrl": "prod-15.jpg",
+            "category": ["Smart watch","Sport"],
+            "brand":"Apple",
+            "stock": 10,
+            "rating": 4,
+            "reviews": [
+                {
+                    "userId": 1,
+                    "comment": "Great product!",
+                    "rating": 5
+                },
+                {
+                    "userId": 2,
+                    "comment": "Good value for money.",
+                    "rating": 4
+                }
+            ],
+            "specifications": {
+                "color": ["red","gray"],
+                "weight": "1kg",
+                "dimensions": "10x10x10cm",
+                "Material":"Plastic, Wood",
+                "Weight":"5.3 kg"
+            },
+            "description": [
+                "Universal fit that’s comfortable all day",
+                "Automatically on, connect",
+                "Easy setup for all your Apple devices"
+            ]
+        },
+        {
+            "id": 16,
+            "name": "Fitbit Inspire 3 Health &-Fitness",
+            "long_description": "This is the description for product 1 This is the description for product 1 This is the description for product 1.",
+            "short_description": "This is the description for product 1.",
+            "price": 99.99,
+            "sku":"AP16",
+            "hasSale":true,
+            "sale":10,
+            "imageUrl": "prod-16.jpg",
+            "category": ["Fitness","Sport"],
+            "brand":"Apple",
+            "stock": 10,
+            "rating": 4.5,
+            "reviews": [
+                {
+                    "userId": 1,
+                    "comment": "Great product!",
+                    "rating": 5
+                },
+                {
+                    "userId": 2,
+                    "comment": "Good value for money.",
+                    "rating": 4
+                }
+            ],
+            "specifications": {
+                "color": ["red","gray","green"],
+                "weight": "1kg",
+                "dimensions": "10x10x10cm",
+                "Material":"Plastic, Wood",
+                "Weight":"5.3 kg"
+            },
+            "description": [
+                "Universal fit that’s comfortable all day",
+                "Automatically on, connect",
+                "Easy setup for all your Apple devices"
+            ]
+        },
+        {
+            "id": 17,
+            "name": "Fitness Tracker Watch with Heart",
+            "long_description": "This is the description for product 1 This is the description for product 1 This is the description for product 1.",
+            "short_description": "This is the description for product 1.",
+            "price": 99.99,
+            "sku":"AP17",
+            "hasSale":true,
+            "sale":10,
+            "imageUrl": "prod-17.jpg",
+            "category": ["Phone","Sport"],
+            "brand":"Apple",
+            "stock": 10,
+            "rating": 4.5,
+            "reviews": [
+                {
+                    "userId": 1,
+                    "comment": "Great product!",
+                    "rating": 5
+                },
+                {
+                    "userId": 2,
+                    "comment": "Good value for money.",
+                    "rating": 4
+                }
+            ],
+            "specifications": {
+                "color": ["red","gray","green"],
+                "weight": "1kg",
+                "dimensions": "10x10x10cm",
+                "Material":"Plastic, Wood",
+                "Weight":"5.3 kg"
+            },
+            "description": [
+                "Universal fit that’s comfortable all day",
+                "Automatically on, connect",
+                "Easy setup for all your Apple devices"
+            ]
+        },
+        {
+            "id": 18,
+            "name": "WHOOP 4.0 with 12 Month Subscription",
+            "long_description": "This is the description for product 1 This is the description for product 1 This is the description for product 1.",
+            "short_description": "This is the description for product 1.",
+            "price": 999.99,
+            "sku":"AP18",
+            "hasSale":true,
+            "sale":10,
+            "imageUrl": "prod-18.jpg",
+            "category": ["Phone","Sport"],
+            "brand":"Apple",
+            "stock": 10,
+            "rating": 2,
+            "reviews": [
+                {
+                    "userId": 1,
+                    "comment": "Great product!",
+                    "rating": 5
+                },
+                {
+                    "userId": 2,
+                    "comment": "Good value for money.",
+                    "rating": 4
+                }
+            ],
+            "specifications": {
+                "color": ["red","gray","green"],
+                "weight": "1kg",
+                "dimensions": "10x10x10cm",
+                "Material":"Plastic, Wood",
+                "Weight":"5.3 kg"
+            },
+            "description": [
+                "Universal fit that’s comfortable all day",
+                "Automatically on, connect",
+                "Easy setup for all your Apple devices"
+            ]
+        },
+        {
+            "id": 19,
+            "name": "WorkPro® 12000 Series Ergonomic",
+            "long_description": "This is the description for product 1 This is the description for product 1 This is the description for product 1.",
+            "short_description": "This is the description for product 1.",
+            "price": 99.99,
+            "sku":"AP19",
+            "hasSale":true,
+            "sale":10,
+            "imageUrl": "prod-19.jpg",
+            "category": ["Home","Medical"],
+            "brand":"Ergonomic",
+            "stock": 10,
+            "rating": 5,
+            "reviews": [
+                {
+                    "userId": 1,
+                    "comment": "Great product!",
+                    "rating": 5
+                },
+                {
+                    "userId": 2,
+                    "comment": "Good value for money.",
+                    "rating": 4
+                }
+            ],
+            "specifications": {
+                "color": ["red","gray","green"],
+                "weight": "1kg",
+                "dimensions": "10x10x10cm",
+                "Material":"Plastic, Wood",
+                "Weight":"5.3 kg"
+            },
+            "description": [
+                "Universal fit that’s comfortable all day",
+                "Automatically on, connect",
+                "Easy setup for all your Apple devices"
+            ]
+        },
+        {
+            "id": 20,
+            "name": "RS Gaming™ RGX Faux Leather High",
+            "long_description": "This is the description for product 1 This is the description for product 1 This is the description for product 1.",
+            "short_description": "This is the description for product 1.",
+            "price": 154.99,
+            "sku":"AP20",
+            "hasSale":true,
+            "sale":10,
+            "imageUrl": "prod-20.jpg",
+            "category": ["Wooden","Sport"],
+            "brand":"RGX",
+            "stock": 10,
+            "rating": 4.5,
+            "reviews": [
+                {
+                    "userId": 1,
+                    "comment": "Great product!",
+                    "rating": 5
+                },
+                {
+                    "userId": 2,
+                    "comment": "Good value for money.",
+                    "rating": 4
+                }
+            ],
+            "specifications": {
+                "color": ["green"],
+                "weight": "1kg",
+                "dimensions": "10x10x10cm",
+                "Material":"Plastic, Wood",
+                "Weight":"5.3 kg"
+            },
+            "description": [
+                "Universal fit that’s comfortable all day",
+                "Automatically on, connect",
+                "Easy setup for all your Apple devices"
+            ]
+        },
+        {
+            "id": 21,
+            "name": "ViewSonic XG2431 24 Inch 1080p 0.5ms",
+            "long_description": "This is the description for product 1 This is the description for product 1 This is the description for product 1.",
+            "short_description": "This is the description for product 1.",
+            "price": 799.99,
+            "sku":"AP21",
+            "hasSale":true,
+            "sale":10,
+            "imageUrl": "prod-21.jpg",
+            "category": ["Smart","Gaming"],
+            "brand":"ViewSonic",
+            "stock": 10,
+            "rating": 4,
+            "reviews": [
+                {
+                    "userId": 1,
+                    "comment": "Great product!",
+                    "rating": 5
+                },
+                {
+                    "userId": 2,
+                    "comment": "Good value for money.",
+                    "rating": 4
+                }
+            ],
+            "specifications": {
+                "color": ["red","gray","green"],
+                "weight": "1kg",
+                "dimensions": "10x10x10cm",
+                "Material":"Plastic, Wood",
+                "Weight":"5.3 kg"
+            },
+            "description": [
+                "Universal fit that’s comfortable all day",
+                "Automatically on, connect",
+                "Easy setup for all your Apple devices"
+            ]
+        },
+        {
+            "id": 22,
+            "name": "jcreate 360 Degree All Around Meeting Webcam",
+            "long_description": "This is the description for product 1 This is the description for product 1 This is the description for product 1.",
+            "short_description": "This is the description for product 1.",
+            "price": 89.99,
+            "sku":"AP22",
+            "hasSale":true,
+            "sale":10,
+            "imageUrl": "prod-22.jpg",
+            "category": ["Smart","Hoem"],
+            "brand":"jcreate",
+            "stock": 10,
+            "rating": 4.5,
+            "reviews": [
+                {
+                    "userId": 1,
+                    "comment": "Great product!",
+                    "rating": 5
+                },
+                {
+                    "userId": 2,
+                    "comment": "Good value for money.",
+                    "rating": 4
+                }
+            ],
+            "specifications": {
+                "color": [],
+                "weight": "1kg",
+                "dimensions": "10x10x10cm",
+                "Material":"Plastic, Wood",
+                "Weight":"5.3 kg"
+            },
+            "description": [
+                "Universal fit that’s comfortable all day",
+                "Automatically on, connect",
+                "Easy setup for all your Apple devices"
+            ]
+        },
+        {
+            "id": 23,
+            "name": "VersionTECH. G2000 Gaming Headset for",
+            "long_description": "This is the description for product 1 This is the description for product 1 This is the description for product 1.",
+            "short_description": "This is the description for product 1.",
+            "price": 699.99,
+            "sku":"AP23",
+            "hasSale":true,
+            "sale":10,
+            "imageUrl": "prod-23.jpg",
+            "category": ["Gaming","Sport"],
+            "brand":"VersionTECH",
+            "stock": 10,
+            "rating": 4.5,
+            "reviews": [
+                {
+                    "userId": 1,
+                    "comment": "Great product!",
+                    "rating": 5
+                },
+                {
+                    "userId": 2,
+                    "comment": "Good value for money.",
+                    "rating": 4
+                }
+            ],
+            "specifications": {
+                "color": ["red","gray","green"],
+                "weight": "1kg",
+                "dimensions": "10x10x10cm",
+                "Material":"Plastic, Wood",
+                "Weight":"5.3 kg"
+            },
+            "description": [
+                "Universal fit that’s comfortable all day",
+                "Automatically on, connect",
+                "Easy setup for all your Apple devices"
+            ]
+        },
+        {
+            "id": 24,
+            "name": "16 Bit Handheld Game Console for Kids Adults",
+            "long_description": "This is the description for product 1 This is the description for product 1 This is the description for product 1.",
+            "short_description": "This is the description for product 1.",
+            "price": 99.99,
+            "sku":"AP24",
+            "hasSale":true,
+            "sale":10,
+            "imageUrl": "prod-24.jpg",
+            "category": ["Gaming","Sport"],
+            "brand":"Handheld",
+            "stock": 10,
+            "rating": 3,
+            "reviews": [
+                {
+                    "userId": 1,
+                    "comment": "Great product!",
+                    "rating": 5
+                },
+                {
+                    "userId": 2,
+                    "comment": "Good value for money.",
+                    "rating": 4
+                }
+            ],
+            "specifications": {
+                "color": ["red","gray","green"],
+                "weight": "1kg",
+                "dimensions": "10x10x10cm",
+                "Material":"Plastic, Wood",
+                "Weight":"5.3 kg"
+            },
+            "description": [
+                "Universal fit that’s comfortable all day",
+                "Automatically on, connect",
+                "Easy setup for all your Apple devices"
+            ]
+        },
+        {
+            "id": 25,
+            "name": "EG100 USB Gaming Headset for PC, Computer Headphones",
+            "long_description": "This is the description for product 1 This is the description for product 1 This is the description for product 1.",
+            "short_description": "This is the description for product 1.",
+            "price": 99.99,
+            "sku":"AP25",
+            "hasSale":true,
+            "sale":10,
+            "imageUrl": "prod-25.jpg",
+            "category": ["Gaming","Sport"],
+            "brand":"Headset",
+            "stock": 140,
+            "rating": 4,
+            "reviews": [
+                {
+                    "userId": 1,
+                    "comment": "Great product!",
+                    "rating": 5
+                },
+                {
+                    "userId": 2,
+                    "comment": "Good value for money.",
+                    "rating": 4
+                }
+            ],
+            "specifications": {
+                "color": ["red"],
+                "weight": "1kg",
+                "dimensions": "10x10x10cm",
+                "Material":"Plastic, Wood",
+                "Weight":"5.3 kg"
+            },
+            "description": [
+                "Universal fit that’s comfortable all day",
+                "Automatically on, connect",
+                "Easy setup for all your Apple devices"
+            ]
+        },
+        {
+            "id": 26,
+            "name": "AOZITA Glass Pitcher with Lid - 2 Quart ",
+            "long_description": "This is the description for product 1 This is the description for product 1 This is the description for product 1.",
+            "short_description": "This is the description for product 1.",
+            "price": 99.99,
+            "sku":"AP26",
+            "hasSale":true,
+            "sale":14,
+            "imageUrl": "prod-26.jpg",
+            "category": ["Home"],
+            "brand":"Quart",
+            "stock": 10,
+            "rating": 5,
+            "reviews": [
+                {
+                    "userId": 1,
+                    "comment": "Great product!",
+                    "rating": 5
+                },
+                {
+                    "userId": 2,
+                    "comment": "Good value for money.",
+                    "rating": 4
+                }
+            ],
+            "specifications": {
+                "color": ["red","gray","green"],
+                "weight": "1kg",
+                "dimensions": "10x10x10cm",
+                "Material":"Plastic, Wood",
+                "Weight":"5.3 kg"
+            },
+            "description": [
+                "Universal fit that’s comfortable all day",
+                "Automatically on, connect",
+                "Easy setup for all your Apple devices"
+            ]
+        },
+        {
+            "id": 27,
+            "name": "iBayam Kitchen Scissors All Purpose Heavy Duty",
+            "long_description": "This is the description for product 1 This is the description for product 1 This is the description for product 1.",
+            "short_description": "This is the description for product 1.",
+            "price": 99.99,
+            "sku":"AP27",
+            "hasSale":true,
+            "sale":10,
+            "imageUrl": "prod-27.jpg",
+            "category": ["Home","Ketchen"],
+            "brand":"Apple",
+            "stock": 10,
+            "rating": 2,
+            "reviews": [
+                {
+                    "userId": 1,
+                    "comment": "Great product!",
+                    "rating": 5
+                },
+                {
+                    "userId": 2,
+                    "comment": "Good value for money.",
+                    "rating": 4
+                }
+            ],
+            "specifications": {
+                "color": ["red","gray","green"],
+                "weight": "1kg",
+                "dimensions": "10x10x10cm",
+                "Material":"Plastic, Wood",
+                "Weight":"5.3 kg"
+            },
+            "description": [
+                "Universal fit that’s comfortable all day",
+                "Automatically on, connect",
+                "Easy setup for all your Apple devices"
+            ]
+        },
+        {
+            "id": 28,
+            "name": "Napkin Holder for Table, Bamboo",
+            "long_description": "This is the description for product 1 This is the description for product 1 This is the description for product 1.",
+            "short_description": "This is the description for product 1.",
+            "price": 699.99,
+            "sku":"AP28",
+            "hasSale":true,
+            "sale":10,
+            "imageUrl": "prod-28.jpg",
+            "category": ["Phone","Sport"],
+            "brand":"Napkin",
+            "stock": 10,
+            "rating": 5,
+            "reviews": [
+                {
+                    "userId": 1,
+                    "comment": "Great product!",
+                    "rating": 5
+                },
+                {
+                    "userId": 2,
+                    "comment": "Good value for money.",
+                    "rating": 4
+                }
+            ],
+            "specifications": {
+                "color": ["red","gray","green"],
+                "weight": "1kg",
+                "dimensions": "10x10x10cm",
+                "Material":"Plastic, Wood",
+                "Weight":"5.3 kg"
+            },
+            "description": [
+                "Universal fit that’s comfortable all day",
+                "Automatically on, connect",
+                "Easy setup for all your Apple devices"
+            ]
+        },
+        {
+            "id": 29,
+            "name": "Smores Maker Tabletop Indoor - Flameless",
+            "long_description": "This is the description for product 1 This is the description for product 1 This is the description for product 1.",
+            "short_description": "This is the description for product 1.",
+            "price": 499.99,
+            "sku":"AP29",
+            "hasSale":true,
+            "sale":10,
+            "imageUrl": "prod-29.jpg",
+            "category": ["Phone","Sport"],
+            "brand":"Flameless",
+            "stock": 10,
+            "rating": 5,
+            "reviews": [
+                {
+                    "userId": 1,
+                    "comment": "Great product!",
+                    "rating": 5
+                },
+                {
+                    "userId": 2,
+                    "comment": "Good value for money.",
+                    "rating": 4
+                }
+            ],
+            "specifications": {
+                "color": ["red","gray","green"],
+                "weight": "1kg",
+                "dimensions": "10x10x10cm",
+                "Material":"Plastic, Wood",
+                "Weight":"5.3 kg"
+            },
+            "description": [
+                "Universal fit that’s comfortable all day",
+                "Automatically on, connect",
+                "Easy setup for all your Apple devices"
+            ]
+        },
+        {
+            "id": 30,
+            "name": "Farmhouse Chandelier Dining Room Rustic Industrial",
+            "long_description": "This is the description for product 1 This is the description for product 1 This is the description for product 1.",
+            "short_description": "This is the description for product 1.",
+            "price": 499.99,
+            "sku":"AP30",
+            "hasSale":true,
+            "sale":10,
+            "imageUrl": "prod-30.jpg",
+            "category": ["Home","Lighting"],
+            "brand":"Rustic",
+            "stock": 10,
+            "rating": 5,
+            "reviews": [
+                {
+                    "userId": 1,
+                    "comment": "Great product!",
+                    "rating": 5
+                },
+                {
+                    "userId": 2,
+                    "comment": "Good value for money.",
+                    "rating": 4
+                }
+            ],
+            "specifications": {
+                "color": ["red","gray","green"],
+                "weight": "1kg",
+                "dimensions": "10x10x10cm",
+                "Material":"Plastic, Wood",
+                "Weight":"5.3 kg"
             },
             "description": [
                 "Universal fit that’s comfortable all day",
