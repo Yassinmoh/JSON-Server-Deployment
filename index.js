@@ -14,6 +14,12 @@ server.use((req, res, next) => {
 
 // server.use(cors());
 
+// Add middlewares to set Total products Count to response headers
+server.use((req, res, next) => {
+    res.header('X-Total-Count', router.db.get('Products').size());
+    next();
+  });
+
 server.use(middlewares);
 server.use(router);
 
